@@ -5,6 +5,7 @@ $(function () {
     new Megjelenit(TODOLIST2, szuloELEM);
 
     $(window).on("torles", (event) => {
-        console.log(event.detail);
+       console.log(event.detail);
     });
+
 });

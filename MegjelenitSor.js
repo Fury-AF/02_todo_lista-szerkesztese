@@ -15,9 +15,13 @@ class MegjelenitSor {
       
         //console.log(this.keszElem);
         this.keszElem.on("click", () => {
-            console.log(this)
+           this.sorElem.css("background-color", "lightblue")
+           
         });
-       
+        this.torolElem.on("click", () => {
+            this.sorElem.css("background-color", "white")
+         });
+        
        
     }
     #sor() {

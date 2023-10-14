@@ -4,3 +4,8 @@
     cursor: grab;
     font-size: 15pt;
 }
+
+kiemel {
+    background-color: red;
+    cursor:grab;
+}
